@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/login_fragment">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:stretchColumns="3">
+
+        <!--server host-->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/server_host"/>
+
+            <EditText
+                android:id="@+id/serverHostField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:autofillHints=""
+                android:inputType="text"
+                android:text="10.0.2.2"
+                tools:ignore="LabelFor"
+                tools:text="10.0.2.2" />
+        </TableRow>
+
+        <!--port-->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/server_port"/>
+
+            <EditText
+                android:id="@+id/serverPortField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:autofillHints="8080"
+                android:inputType="number"
+                android:text="8080"
+                tools:ignore="LabelFor"
+                tools:text="8080" />
+        </TableRow>
+
+        <!--username-->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/user_name"/>
+
+            <EditText
+                android:id="@+id/usernameField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:autofillHints=""
+                android:inputType="textPersonName"
+                android:text="sheila"
+                tools:ignore="LabelFor"
+                tools:text="Matthew" />
+        </TableRow>
+
+        <!--password-->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/password"/>
+
+            <EditText
+                android:id="@+id/passwordField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:autofillHints=""
+                android:inputType="textPassword"
+                android:text="parker"
+                tools:ignore="LabelFor"
+                tools:text="password" />
+        </TableRow>
+
+        <!--first name-->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/first_name"/>
+
+            <EditText
+                android:id="@+id/firstNameField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:autofillHints=""
+                android:inputType="textPersonName"
+                android:text="Matthew"
+                tools:ignore="LabelFor"
+                tools:text="Matthew" />
+        </TableRow>
+
+        <!--last name-->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/last_name"/>
+
+            <EditText
+                android:id="@+id/lastNameField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:autofillHints=""
+                android:inputType="textPersonName"
+                android:text="Peart"
+                tools:ignore="LabelFor"
+                tools:text="Peart" />
+        </TableRow>
+
+        <!--email-->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/email"/>
+
+            <EditText
+                android:id="@+id/emailField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:autofillHints=""
+                android:inputType="textEmailAddress"
+                android:text="matthewpeart@hotmail.com"
+                tools:ignore="LabelFor"
+                tools:text="matthewpeart@hotmail.com" />
+        </TableRow>
+
+        <!--Gender-->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|end"
+                android:text="@string/gender" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radioButtonGroup">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/male" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female"
+                    android:id="@+id/radioButtonFemale"
+                    android:checked="false"/>
+            </RadioGroup>
+        </TableRow>
+
+        <!--sign in/register buttons-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sign_in"
+                android:id="@+id/signInButton"/>
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="0dp"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:gravity="center"
+                android:id="@+id/registerButton"/>
+        </LinearLayout>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">FamilyMap</string>
+    <string name="server_host">Server Host:</string>
+    <string name="server_port">Server Port:</string>
+    <string name="user_name">User Name:</string>
+    <string name="password">Password:</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="search">SEARCH</string>
+    <string name="settings">SETTINGS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="life_story_lines">Life Story Lines</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="click_on_a_marker_to_see_event_details">Click on a marker to see event details</string>
+    <string name="events_group_title">life events</string>
+    <string name="family_group_title">family</string>
+    <string name="life_events_title">LIFE EVENTS</string>
+    <string name="family_title">FAMILY</string>
+    <string name="life_story_lines_activity">Show Life Story Lines</string>
+    <string name="logout">LOGOUT</string>
+    <string name="spouse_lines">Spouse Lines</string>
+    <string name="family_tree_lines">Family Tree Lines</string>
+    <string name="father_s_side">Father\'s Side</string>
+    <string name="mother_s_side">Mother\'s Side</string>
+    <string name="male_events">Male Events</string>
+    <string name="female_events">Female Events</string>
+    <string name="up_button">up_button</string>
+</resources>
